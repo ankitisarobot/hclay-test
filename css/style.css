@@ -5514,7 +5514,7 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
   background-color: rgb(255, 255, 255);
   border: 1px solid rgb(235, 235, 235);
   border-bottom: none;
-  border-radius: 8px 8px 0 0;
+  border-radius: 8px 8px 8px 8px;
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
@@ -5544,6 +5544,11 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
 }
 .white_goverlay.z-1:before{
   z-index: -1;
+}
+#btn-contact{
+  position: relative;
+  float: right;
+
 }
 .additional_details{
   background-color: rgb(255, 255, 255);
@@ -7355,7 +7360,7 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
 }
 /*== Inner Pages Breadcrumb ==*/
 .inner_page_breadcrumb {
-  background-image: url(../images/background/inner-pagebg.jpg);
+  background-image: url(../cont.jpg);
   background-repeat: no-repeat;
   height: 410px;
   position: relative;
